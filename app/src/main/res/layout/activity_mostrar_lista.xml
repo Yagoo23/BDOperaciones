@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar alumnos en una lista"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:backgroundTint="@color/teal_200"/>
+    <ListView
+        android:id="@+id/lvAlumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/teal_200"
+        android:dividerHeight="5dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
